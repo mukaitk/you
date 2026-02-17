@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Who Is the Lead?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="viz"></canvas>
+
+  <!-- Tap-to-start overlay -->
+  <div id="overlay">
+    <div class="panel">
+      <div class="title">Who Is the Lead?</div>
+      <div class="sub">Touch the visual to “mix space”. Release to let it drift.</div>
+
+      <button id="start">START</button>
+      <div id="status">Ready</div>
+
+      <div id="hint">
+        Files required:
+        <code>assets/drum.wav</code> / <code>assets/synthesizer.wav</code>
+      </div>
+
+      <pre id="debug"></pre>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
